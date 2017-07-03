@@ -22,6 +22,6 @@ public class WordCounterTest {
 
     @Test
     public void testWordCount() throws Exception {
-        assertEquals(5, wordCounter.wordCount());
+        assertEquals("5", wordCounter.wordCount());
     }
 }

@@ -29,7 +29,7 @@ public class WordCounterActivity extends AppCompatActivity {
 
         wordCounter = new WordCounter(input);
 //        answerText.setText(Integer.toString(wordCounter.wordCount()));
-        answerText.setText(wordCounter.wordCountAsString());
+        answerText.setText(wordCounter.wordCount());
 
     }
 }

@@ -11,7 +11,7 @@ public class WordCounter {
         this.string = string;
     }
 
-    public int wordCount() {
+    public String wordCount() {
 //        take in a string
 //        split it into separate words
 //        count the words
@@ -19,11 +19,12 @@ public class WordCounter {
 
         int counter = string.split(" ").length;
 
-        return counter;
+        return "" + counter;
     }
 
-    public String wordCountAsString() {
-        return string.toString();
-    }
+//    public String wordCountAsString(int wordCount) {
+//        int count = string;
+//        return "" + counter;
+//    }
 
 }
