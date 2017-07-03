@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WordCount2.0</string>
+    <string name="inputText">Input Text</string>
+    <string name="countButton">Calculate Word Count</string>
+</resources>
